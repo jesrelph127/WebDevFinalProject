@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <nav>
+        <h2
+          class="logo"
+          data-aos="fade-down"
+          data-aos-delay="600"
+          data-aos-duration="800"
+        >
+          Jess No<span>-Limit</span>
+        </h2>
+        <ul data-aos="fade-down" data-aos-delay="600" data-aos-duration="800">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#works">Project</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="content">
+        <div
+          class="div"
+          data-aos="fade-right"
+          data-aos-delay="600"
+          data-aos-duration="800"
+        >
+          <h4 class="myName">Hello, I'm</h4>
+          <h1>Jesrel <span>Pilipino</span></h1>
+          <h3 class="myName">I' am a web designer</h3>
+          <div class="newslatter">
+            <form>
+              <input
+                type="email"
+                name="email"
+                id="mail"
+                placeholder="Enter Your Email"
+              />
+              <input type="submit" value=" Let's Talk !" name="submit" />
+            </form>
+          </div>
+        </div>
+
+        <div
+          class="img"
+          data-aos="zoom-in"
+          data-aos-delay="600"
+          data-aos-duration="800"
+        >
+          >
+          <img src="../assets/images/about.jpg" />
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="main">
+        <img
+          src="../assets/images/about2.jpg"
+          alt="about me"
+          data-aos="fade-right"
+          data-aos-delay="600"
+          data-aos-duration="800"
+        />
+        <div
+          class="about-text"
+          data-aos="fade-left"
+          data-aos-delay="600"
+          data-aos-duration="800"
+        >
+          <h2>About me</h2>
+
+          <p>
+            I am a front-end web developer. I can provide clean code and pixel
+            perfect design. I also make the website more & more interactive with
+            web animations.I can provide clean code and pixel perfect design.A
+            responsive design makes your website accessible to all users,
+            regardless of their device.
+          </p>
+          <button type="button">Hire me !</button>
+        </div>
+      </div>
+    </section>
+
+    <!-----Project section----------->
+    <div class="service" id="works">
+      <div class="title"
+      data-aos="fade-down"
+        data-aos-delay="600"
+        data-aos-duration="800">
+        <h2>My Projects</h2>
+      </div>
+      <div class="box">
+        <div
+          class="card"
+          data-aos="zoom-in"
+          data-aos-delay="600"
+          data-aos-duration="800"
+        >
+          <img src="../assets/images/work3.png" />
+        </div>
+        <div
+          class="card"
+          data-aos="zoom-in"
+          data-aos-delay="600"
+          data-aos-duration="800"
+        >
+          <img src="../assets/images/work1.png" />
+        </div>
+        <div
+          class="card"
+          data-aos="zoom-in"
+          data-aos-delay="600"
+          data-aos-duration="800"
+        >
+          <img src="../assets/images/work2.png" />
+        </div>
+      </div>
+    </div>
+
+    <!------Contact Me------>
+    <div class="contact-me" id="contact">
+      <h2 class="txt-title"
+      data-aos="fade-down"
+        data-aos-delay="600"
+        data-aos-duration="800">Contact me</h2>
+      <form class="form-container"
+      data-aos="zoom-in"
+        data-aos-delay="600"
+        data-aos-duration="800">
+        <label class="form-label" for="name">Name:</label>
+        <input class="form-input" type="text" id="name" name="name" required />
+
+        <label class="form-label" for="email">Email:</label>
+        <input
+          class="form-input"
+          type="email"
+          id="email"
+          name="email"
+          required
+        />
+
+        <label class="form-label" for="message">Message:</label>
+        <textarea
+          class="form-input-2"
+          id="message"
+          name="message"
+          rows="4"
+          required
+        ></textarea>
+
+        <input class="form-submit" type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <!------footer --------->
+    <footer>
+      <p>Jesrel Pilipino</p>
+      <p>For more Information, visit my social media account</p>
+      <div class="social">
+        <a
+          href="https://www.facebook.com/kise.ryouta.334491?mibextid=ZbWKwL"
+          target="_blank"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/eh_ovo_ncit?igshid=OGQ5ZDc2ODk2ZA=="
+          target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://github.com/jesrelph127" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+      <p class="end">©CopyRight By Jesrel Pilipino</p>
+    </footer>
+  </body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
